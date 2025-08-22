@@ -1,0 +1,160 @@
+/**
+  |============================
+  | include css partials with
+  | default @import url()
+  |============================
+*/
+/* Common styles */
+@import url('./reset.css');
+@import url('./base.css');
+@import url('./container.css');
+@import url('./animations.css');
+
+/* Sections style */
+@import url('./header.css');
+@import url('./vite-promo.css');
+@import url('./badges.css');
+@import url('./back-link.css');
+@import url('./footer.css');
+
+
+.timer-box {
+  margin-top: 32px;
+}
+
+.input {
+  border-radius: 4px;
+  width: 272px;
+  height: 40px;
+  background: #fff;
+  margin-right: 8px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.btn {
+border-radius: 8px;
+width: 75px;
+height: 40px;
+background-color: #4e75ff;
+font-family: var(--font-family);
+font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0.04em;
+color: #fff;
+border: none;
+}
+
+.btn:disabled {
+  background-color: #cfcfcf;
+  color: #989898;
+}
+
+.timer {
+  margin-top: 32px;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.field {
+display: flex;
+flex-direction: column;
+}
+
+.value {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1.2;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.label {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #2e2f42;
+}
+
+
+.form {
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.label {
+  display: block;
+  text-align: start;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.input-num {
+  display: block;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
+  margin-bottom: 30px;
+}
+
+.fieldset {
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+  border-radius: 4px;
+  stroke-width: 1px;
+  stroke: #808080;
+  width: 338px;
+  height: 66px;
+  margin-bottom: 24px;
+}
+
+.legend {
+  text-align: start;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.input-ful, .input-rej {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #2e2f42;
+}
+
+
+.btn-submit {
+  border-radius: 8px;
+  border: none;
+  padding: 8px 16px;
+  width: 360px;
+  height: 40px;
+  background-color: #4e75ff;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+.btn-submit:hover, .btn-submit:focus {
+  background-color: #6c8cff;;
+}
