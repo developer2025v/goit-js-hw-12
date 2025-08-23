@@ -139,5 +139,10 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 
+# Папки збірки
+dist/
+docs/
+build/
+
 
 .DS_Store
